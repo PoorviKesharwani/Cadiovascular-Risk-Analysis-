@@ -1,6 +1,6 @@
 Cardiovascular Risk Analysis – AI-Based Expert System
 
-Introduction
+🧠 Introduction
 
 With cardiovascular diseases (CVDs) being a leading cause of mortality worldwide, technology-driven solutions hold transformative potential for early detection and treatment. This project documents my journey of building an AI-powered expert system that combines:
 
@@ -11,7 +11,7 @@ Rule-based reasoning (Forward & Backward Chaining) for diagnostic verification
 BERT model for personalized treatment recommendations
 
 
-Project Overview
+📌 Project Overview
 
 The primary goal of this project was to develop a reliable AI system capable of early detection of cardiovascular conditions and providing customized treatment guidance. This was achieved by integrating:
 
@@ -23,7 +23,7 @@ BERT – For advanced, context-aware treatment recommendations
 
 
 
-Data and Tools Used
+📊 Data and Tools Used
 
 The dataset included key cardiovascular health indicators such as blood pressure, cholesterol levels, age, and more.
 
@@ -37,7 +37,7 @@ BERT (Transformer model) – For natural language processing and treatment sugge
 
 
 
-Key Features of the System
+⚙️ Key Features of the System
 
 Forward Chaining – Diagnostic Inference
 The system begins with user-provided symptoms and applies medical rules to identify possible cardiovascular conditions. This approach incrementally builds a hypothesis, enhancing early detection.
@@ -52,7 +52,7 @@ BERT – Personalized Treatment Recommendations
 Following diagnosis, the system uses BERT to recommend evidence-based and context-specific treatment strategies tailored to individual patient profiles.
 
 
-Challenges and Solutions
+🚧 Challenges and Solutions
 
 Data Quality and Missing Values:
 Handling missing values and ensuring data accuracy were critical. Using H2O’s na_omit function allowed me to manage missing data without manual intervention.
@@ -68,7 +68,7 @@ The system successfully categorizes patient risk levels and provides evidence-ba
 
 
 
-Conclusion
+📝 Conclusion
 
 This project demonstrates the power of combining symbolic AI with machine learning to support critical healthcare applications. While the road to building AI-driven healthcare systems is complex, the impact is immensely rewarding. Continuous improvement and integration of such systems could revolutionize global healthcare accessibility and accuracy.
 
